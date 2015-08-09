@@ -1,0 +1,24 @@
+{
+  "name": "ci-tests-nodejs",
+  "version": "0.1.0",
+  "description": "Simples Node/Mocha tests to run on a CI server for experimentation",
+  "private": true,
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/**/*_spec.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulodiovani/ci-tests-nodejs.git"
+  },
+  "author": "Paulo Diovani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulodiovani/ci-tests-nodejs/issues"
+  },
+  "homepage": "https://github.com/paulodiovani/ci-tests-nodejs#readme",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "coffee-script": "^1.9.3",
+    "mocha": "^2.2.5"
+  }
+}
