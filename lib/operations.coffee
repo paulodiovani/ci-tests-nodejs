@@ -13,4 +13,5 @@ module.exports =
 
   div: (one, two) ->
     return ZERO if one is ZERO
+    throw new Error("can't divide by zero") if two is ZERO
     one / two
