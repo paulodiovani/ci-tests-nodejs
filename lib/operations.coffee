@@ -10,3 +10,7 @@ module.exports =
   mult: (one, two) ->
     return ZERO if one is ZERO or two is ZERO
     one * two
+
+  div: (one, two) ->
+    return ZERO if one is ZERO
+    one / two
